@@ -1,0 +1,91 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+    box-sizing: border-box;
+  }
+   
+  body {
+      line-height: 1.6;
+      background-color: #FAF0E6;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.header,
+.contact,
+.footer{
+    background-color: #D3D3D3;
+}
+  /* ================================= 
+    Base Layout Styles
+  ==================================== */
+/* ----- Header ------*/
+.header {
+    padding-bottom: 2rem;
+}
+
+h1 {
+    width: 100%;
+    margin: 0;
+}
+
+.profile-text {
+    padding: 0.5rem;
+}
+
+.profile-image {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+  
+  /* ---- Navigation ---- */
+  .header-nav li {
+    margin: 0.5rem;
+    padding: 0.75rem;
+    background-color: #FAF0E6;
+}
+ 
+  /* ---- Layout Containers ---- */
+h2 {
+    padding: 1.5rem;
+}
+
+/* ---- Project Image Formatting ------*/
+.project-image {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0 auto;
+}
+
+/* ---- Contact Section ------*/
+
+/* ---- Footer ------*/
+
+  /* ================================= 
+    Media Queries
+  ==================================== */
+  
+  @media (min-width: 769px) {
+  
+ 
+  
+  }
+  
+  
