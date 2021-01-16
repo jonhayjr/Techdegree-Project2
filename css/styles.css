@@ -123,15 +123,61 @@ span {
 .footer-mobile-nav {
   text-transform: uppercase;
 }
-
-
-
-
   /* ================================= 
     Media Queries
   ==================================== */
-  
-  @media (min-width: 769px) {
+  /*Tablets*/
+  @media (min-width: 768px) {
+    /* ----- Header ------*/
+    .header_nav li {
+      display: inline-block;
+      background-color: #FAFAFA;
+    }
+    
+    .header_profile {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+
+    .profile-text {
+      text-align: left;
+      padding-right: 0;
+      padding-left: 1rem;
+    }
+
+    .profile-image {
+     padding: 0.75rem;
+  }
+  /* ----- Main ------*/
+  .porfolio-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+  }
+
+/* ---- Footer -------*/
+.footer {
+  font-size: 0.75rem;
+}
+
+.footer-mobile-nav {
+  display: none;
+}
+
+.footer_nav {
+  display: inline-block;
+  padding-right: 0;
+}
+
+.footer_nav li {
+  display: inline-block;
+  font-weight: 700;
+  padding: 1rem;
+}
+
+}
+
+/*Desktop Screen*/
+  @media (min-width: 1024px) {
   
  
   
