@@ -45,7 +45,7 @@ h2 {
   text-transform: uppercase;
 }
 
-.header-container,
+.header_container,
 .footer
  {
   font-family: 'Roboto', sans-serif;
@@ -151,7 +151,7 @@ span {
     Media Queries
   ==================================== */
   /*Tablets*/
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 768px){
     /* ----- Header ------*/
     .header {
       padding-left: 1rem;
@@ -231,7 +231,7 @@ h1 {
   font-size: 1.2rem;
 }
 
-.header-container {
+.header_container {
   display: flex;
   justify-content: space-around;
   align-self: center;
