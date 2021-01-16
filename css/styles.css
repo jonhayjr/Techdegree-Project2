@@ -8,7 +8,7 @@
    
 body {
       line-height: 1.6;
-      background-color: #FAFAFA;
+      background-color: #F0FFFF;
       text-align: center;
       font-family: 'Montserrat', sans-serif;
   }
@@ -23,6 +23,11 @@ a:visited {
   color: black;
 }
 
+a:hover {
+  border-bottom: 2px solid slategray;
+  text-shadow: 2px 1px rgba(63, 62, 62, 0.39);
+}
+
 li {
     list-style: none;
     text-transform: uppercase;
@@ -35,6 +40,13 @@ ul {
 h2 {
   text-transform: uppercase;
 }
+
+.header-container,
+.footer
+ {
+  font-family: 'Roboto', sans-serif;
+}
+
   /* ================================= 
     Base Layout Styles
   ==================================== */
@@ -54,13 +66,15 @@ h1 {
 }
 
 .profile-image {
-    width: 75%;
+    height: auto;
+    max-width: 250px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 1rem;
     padding: 0.5rem;
 }
   
-  /* ---- Navigation ---- */
+/* ---- Navigation ---- */
   .header_nav li {
     margin: 0.5rem;
     padding: 0.75rem;
@@ -68,7 +82,7 @@ h1 {
     font-weight: 700;
 }
  
-  /* ---- Porfolio Section ---- */
+/* ---- Porfolio Section ---- */
 h2 {
     padding: 1.5rem;
 }
@@ -90,7 +104,8 @@ h2 {
   margin-bottom: 4rem;
 }
 
-.contact {
+.contact,
+.skills {
   padding: 0.75rem;
 }
 
@@ -104,6 +119,17 @@ h2 {
 span {
   padding-left: 0.5rem;
 }
+
+/* ---- Skills ------*/
+.skills,
+.skill-list li {
+  padding: 0.5rem;
+}
+.skills-list li:hover {
+  border: 1px solid lightgray;
+  background-color: ghostwhite;
+}
+
 /* ---- Footer ------*/
 .footer {
   border-top: 0.5px solid lightgray;
@@ -129,9 +155,14 @@ span {
   /*Tablets*/
   @media (min-width: 768px) and (max-width: 1023px) {
     /* ----- Header ------*/
+    .header {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
     .header_nav li {
       display: inline-block;
-      background-color: #FAFAFA;
+      background-color: #F0FFFF;
     }
     
     .header_profile {
@@ -142,11 +173,18 @@ span {
     .profile-text {
       text-align: left;
       padding-right: 0;
+      margin-right: 0;
       padding-left: 1rem;
+      padding-top: 0;
+      margin-top: 0;
+      width: 50%;
     }
 
     .profile-image {
-     padding: 0.75rem;
+      padding-top: 0;
+      margin-top: 0;
+      padding-right: 0.25rem;
+      padding-left: 0;
   }
   /* ----- Main ------*/
   .porfolio-container {
@@ -154,7 +192,8 @@ span {
     grid-template-columns: repeat(2, minmax(250px, 1fr));
   }
 
-  .contact {
+  .contact,
+  .skills {
     width: 75%;
     margin: 0 auto;
   }
@@ -182,10 +221,16 @@ span {
 }
 
 /*Desktop Screen*/
-  @media (min-width: 1024px) {
-/* ----- Main ------*/
+@media (min-width: 1024px) {
+/* ----- Header ------*/
+.header {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 h1 {
   text-align: left;
+  font-size: 1.2rem;
 }
 
 .header-container {
@@ -207,34 +252,46 @@ h1 {
 
 .header_nav li {
   display: inline-block;
-  background-color: #FAFAFA;
+  background-color: #F0FFFF;
 }
 
 .header_profile {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .profile-text {
   text-align: left;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  width: 50%;
+  margin-top: 0;
+  margin-right: 0.25rem;
+  padding-top: 0;
+  width: 65%;
 }
 
 .profile-image {
- padding: 1rem;
- width: 50%;
+  height: auto;
+  margin-top: 0;
+  padding-top: 0;
+  width: 50%;
+  max-width: 300px;
 }
 
  /* ----- Main ------*/
-  .porfolio-container {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(250px, 1fr));
+.porfolio-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
   }
-  .contact {
-    width: 50%;
-    margin: 0 auto;
+
+.portfolio-card {
+  padding: 0.5rem;
+}
+
+.contact,
+.skills {
+  width: 50%;
+  margin: 0 auto;
   }
 
 /* ---- Footer -------*/

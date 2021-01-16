@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jon Hay's Responsive Portfolio</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
-</head>
-<body id="home">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jon Hay's Responsive Portfolio</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body id="home">
         <header class="header">
             <div class="header-container">
                         <h1>Jon Hay</h1>
@@ -16,18 +17,19 @@
                             <ul class="header_nav_link">
                                 <li><a href="#home">Home</a></li>
                                 <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#skills">Skills</a></li>
                                 <li><a href="#contact">Contact</a></li>
                             </ul>
                         </nav>
             </div>
                 <div class="header_profile">
-                <img src="images/responsive-layout-profile.png" alt="Profile Photo" class="profile-image">
+                <img src="images/rsz_jonheadshot.jpg" alt="Profile Photo" class="profile-image">
                 <p class="profile-text">Hi!  I'm a front-end developer who loves responsive design and CSS.  I recently finished a degree in front-end development at Treehouse and I'm excited to put all my skills to use.</p>
                 </div>
     </header>
     <main class="main">
         <section class="portfolio" id="portfolio">
-            <h2>Portfolio</h2>
+            <h3>Portfolio</h3>
             <div class="porfolio-container">
                 <div class="portfolio-card">
                     <img src="images/portfolio-1.png" alt="Marketing Page" class="project-image">
@@ -61,8 +63,18 @@
                 </div>
             </div>
         </section>
+        <section class="skills" id="skills">
+            <h3>Skills</h3>
+            <p class="skills-paragraph">I have experience working with the below programming languages:</p>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>SQL</li>
+            </ul>
+        </section>
         <section class="contact" id="contact">
-            <h2>Contact</h2>
+            <h3>Contact</h3>
             <p class="contact-paragraph">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
             <p>Phone<span class="phone">+1 (111) 555-1234</span></p>
             <p>Email<span class="email"><a href="mailto:jonhayjr@gmail.com" class="email-link">jonhayjr@gmail.com</a></span></p>
@@ -75,9 +87,10 @@
                     <ul>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#skills">Skills</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </footer>
-</body>
+    </body>
 </html>
