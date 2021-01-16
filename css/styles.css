@@ -8,7 +8,7 @@
    
 body {
       line-height: 1.6;
-      background-color: #F0FFFF;
+      background-color: #97afaf;
       text-align: center;
       font-family: 'Montserrat', sans-serif;
   }
@@ -26,6 +26,7 @@ a:visited {
 a:hover {
   border-bottom: 2px solid slategray;
   text-shadow: 2px 1px rgba(63, 62, 62, 0.39);
+  cursor: pointer;
 }
 
 li {
@@ -90,7 +91,11 @@ h2 {
 .portfolio {
   background-color: #FFF;
   margin: 0 auto;
-  padding: 0.75rem;
+  padding: 1rem 0.75rem;
+}
+
+.portfolio-card {
+  padding: 1rem;
 }
 /* ---- Project Image Formatting ------*/
 .project-image {
@@ -100,13 +105,8 @@ h2 {
 }
 
 /* ---- Contact Section ------*/
-.main {
-  margin-bottom: 4rem;
-}
-
-.contact,
-.skills {
-  padding: 0.75rem;
+.skills-contact-content {
+  padding: 3rem 1rem;
 }
 
 .phone,
@@ -121,9 +121,8 @@ span {
 }
 
 /* ---- Skills ------*/
-.skills,
-.skill-list li {
-  padding: 0.5rem;
+.skills {
+  padding: 1rem 0.5rem;
 }
 .skills-list li:hover {
   border: 1px solid lightgray;
@@ -132,20 +131,16 @@ span {
 
 /* ---- Footer ------*/
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
   border-top: 0.5px solid lightgray;
-}
+ }
 
 .footer_nav {
   display: none;
 }
-
-.footer {
- display: flex;
- align-items: center;
- justify-content: space-between;
- padding: 0.5rem 1rem;
-}
-
 .footer-mobile-nav {
   text-transform: uppercase;
 }
@@ -162,7 +157,7 @@ span {
 
     .header_nav li {
       display: inline-block;
-      background-color: #F0FFFF;
+      background-color: #97afaf;
     }
     
     .header_profile {
@@ -252,7 +247,7 @@ h1 {
 
 .header_nav li {
   display: inline-block;
-  background-color: #F0FFFF;
+  background-color: #97afaf;
 }
 
 .header_profile {
