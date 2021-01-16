@@ -14,12 +14,10 @@ body {
   }
 
 
-.email-link,
 a {
     text-decoration: none;
 }
 
-.email-link,
 a:visited {
   color: black;
 }
@@ -63,6 +61,7 @@ h1 {
     margin: 0.5rem;
     padding: 0.75rem;
     background-color: #FFF;
+    font-weight: 700;
 }
  
   /* ---- Porfolio Section ---- */
@@ -73,7 +72,7 @@ h2 {
 .portfolio {
   background-color: #FFF;
   margin: 0 auto;
-  padding: 0.5rem;
+  padding: 0.75rem;
 }
 /* ---- Project Image Formatting ------*/
 .project-image {
@@ -87,8 +86,19 @@ h2 {
   margin-bottom: 4rem;
 }
 
+.contact {
+  padding: 0.75rem;
+}
+
+.phone,
+.email-link,
+.email-link:visited {
+  color:black;
+  font-weight: 700;
+}
+
 span {
-  font-weight: bold;
+  padding-left: 0.5rem;
 }
 /* ---- Footer ------*/
 .footer {
