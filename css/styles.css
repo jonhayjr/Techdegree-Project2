@@ -6,15 +6,22 @@
     box-sizing: border-box;
   }
    
-  body {
+body {
       line-height: 1.6;
-      background-color: #FAF0E6;
+      background-color: #FAFAFA;
       text-align: center;
       font-family: 'Montserrat', sans-serif;
   }
 
-  a {
+
+.email-link,
+a {
     text-decoration: none;
+}
+
+.email-link,
+a:visited {
+  color: black;
 }
 
 li {
@@ -26,11 +33,6 @@ ul {
     padding-left: 0;
 }
 
-.header,
-.contact,
-.footer{
-    background-color: #D3D3D3;
-}
   /* ================================= 
     Base Layout Styles
   ==================================== */
@@ -42,6 +44,7 @@ ul {
 h1 {
     width: 100%;
     margin: 0;
+    padding-top: 1rem;
 }
 
 .profile-text {
@@ -59,14 +62,19 @@ h1 {
   .header-nav li {
     margin: 0.5rem;
     padding: 0.75rem;
-    background-color: #FAF0E6;
+    background-color: #FFF;
 }
  
-  /* ---- Layout Containers ---- */
+  /* ---- Porfolio Section ---- */
 h2 {
     padding: 1.5rem;
 }
 
+.portfolio {
+  background-color: #FFF;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
 /* ---- Project Image Formatting ------*/
 .project-image {
     width: 100%;
@@ -75,8 +83,35 @@ h2 {
 }
 
 /* ---- Contact Section ------*/
+.main {
+  margin-bottom: 4rem;
+}
 
+span {
+  font-weight: bold;
+}
 /* ---- Footer ------*/
+.footer {
+  border-top: 0.5px solid lightgray;
+}
+
+.footer-nav {
+  display: none;
+}
+
+.footer {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 0.5rem 1rem;
+}
+
+.footer-mobile-nav {
+  text-transform: uppercase;
+}
+
+
+
 
   /* ================================= 
     Media Queries
