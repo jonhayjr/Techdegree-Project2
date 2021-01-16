@@ -31,6 +31,9 @@ ul {
     padding-left: 0;
 }
 
+h2 {
+  text-transform: uppercase;
+}
   /* ================================= 
     Base Layout Styles
   ==================================== */
@@ -46,7 +49,7 @@ h1 {
 }
 
 .profile-text {
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .profile-image {
