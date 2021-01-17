@@ -93,7 +93,7 @@ h2 {
 .portfolio {
   background-color: #FFF;
   margin: 0 auto;
-  padding: 1rem 0.75rem;
+  padding: 1rem 0.75rem 5rem;
 }
 
 .portfolio-card {
@@ -107,6 +107,10 @@ h2 {
 }
 
 /* ---- Contact ------*/
+.contact {
+  padding-bottom: 2.5rem;
+}
+
 .skills-contact-content {
   padding: 3rem 1rem;
 }
@@ -127,6 +131,7 @@ h2 {
 .skills {
   padding: 1rem 0.5rem;
 }
+
 .skills-list-item:hover {
   border: 1px solid black;
   background-color: lightgray;
@@ -137,7 +142,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1.5rem;
   border-top: 0.5px solid lightgray;
  }
 
@@ -163,6 +168,10 @@ h2 {
       background-color: #97afaf;
     }
     
+    .header_container {
+      padding-bottom: 2rem;
+    }
+
     .header_profile {
       display: flex;
       flex-direction: row-reverse;
@@ -190,6 +199,11 @@ h2 {
     grid-template-columns: repeat(2, minmax(250px, 1fr));
   }
 
+  .portfolio-card {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .contact,
   .skills {
     width: 75%;
@@ -199,6 +213,8 @@ h2 {
 /* ---- Footer -------*/
 .footer {
   font-size: 0.75rem;
+  padding-top: 0.15rem;
+  padding-bottom: 2rem;
 }
 
 .footer-mobile-nav {
@@ -283,7 +299,7 @@ h2 {
   }
 
 .portfolio-card {
-  padding: 0.5rem;
+  padding: 0;
 }
 
 .contact,
@@ -295,6 +311,7 @@ h2 {
 /* ---- Footer -------*/
 .footer {
   font-size: 0.75rem;
+  padding-bottom: 0.5rem;
 }
 
 .footer-mobile-nav {
