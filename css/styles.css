@@ -21,9 +21,9 @@ a {
 a:link,
 a:visited {
   color: black;
-  border-bottom: 2px solid tranparent;
+  border-bottom: 2px solid transparent;
   text-shadow: 2px 1px transparent;
-  transition: 0.75s border-bottom text-shadow;
+  transition: 0.75s border-bottom, text-shadow;
 }
 
 a:hover {
