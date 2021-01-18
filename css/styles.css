@@ -57,7 +57,7 @@ ul {
   /* ================================= 
     Base Layout Styles
   ==================================== */
-/*------------FOOTER---------------*/  
+/*------------HEADER---------------*/  
 .header {
     padding-bottom: 2rem;
 }
@@ -175,15 +175,14 @@ ul {
       padding-right: 1rem;
     }
 
-    .header_nav-list-item {
-      display: inline-block;
-      background-color: #97afaf;
-    }
-    
     .header_container {
       padding-bottom: 2rem;
     }
 
+    .header_nav-list-item {
+      display: inline-block;
+      background-color: #97afaf;
+    } 
     .header_profile {
       display: flex;
       flex-direction: row-reverse;
@@ -260,8 +259,7 @@ ul {
 @media (min-width: 1024px) {
 /* ----- Header ------*/
 .header {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 0 0.5rem 3rem 0.5rem;
 }
 
 .header-title {
@@ -276,7 +274,7 @@ ul {
   align-content: center;
   align-items: center;
   font-size: 0.75rem;
-  padding: 0.5rem;
+  padding: 0 0.5rem 2rem 0.5rem;
   margin: 0.5rem;
 }
 
