@@ -124,7 +124,7 @@ ul {
 
 .phone, 
 .email {
-  padding-left: 0.5rem;
+  padding-left: 1rem;
 }
 
 .phone,
@@ -266,7 +266,7 @@ ul {
 
 .header-title {
   text-align: left;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
 }
 
 .header_container {
