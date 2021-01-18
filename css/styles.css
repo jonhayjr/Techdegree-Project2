@@ -41,7 +41,10 @@ ul {
     padding-left: 0;
 }
 
-h2 {
+.portfolio-title,
+.skills-title,
+.contact-title
+ {
   text-transform: uppercase;
 }
 
@@ -81,7 +84,7 @@ h2 {
 .header_nav-list-item {
     margin: 0.5rem;
     padding: 0.75rem;
-    background-color: #FFF;
+    background-color: #21292911;
     font-weight: 700;
 }
 /*------------MAIN---------------*/   
@@ -108,7 +111,11 @@ h2 {
 
 /* ---- Contact ------*/
 .contact {
-  padding-bottom: 2.5rem;
+  padding-bottom: 1.75rem;
+}
+
+.contact-paragraph {
+  padding-bottom: 1.5rem;
 }
 
 .skills-contact-content {
@@ -132,9 +139,14 @@ h2 {
   padding: 1rem 0.5rem;
 }
 
+.skills-list-item {
+  width: 25%;
+  margin: 0 auto;
+}
+
 .skills-list-item:hover {
-  border: 1px solid black;
-  background-color: lightgray;
+  border: 1px solid rgba(0, 0, 0, 0.027);
+  background-color: #21292911;
 }
 
 /*------------FOOTER---------------*/  
@@ -184,7 +196,7 @@ h2 {
       padding-left: 1rem;
       padding-top: 0;
       margin-top: 0;
-      width: 50%;
+      width: 60%;
     }
 
     .profile-image {
@@ -204,10 +216,20 @@ h2 {
     padding-right: 0;
   }
 
+  .portfolio-card-paragraph {
+    width: 85%;
+    margin: 0 auto;
+  }
+
   .contact,
   .skills {
     width: 75%;
     margin: 0 auto;
+  }
+
+  .skills-title,
+  .contact-title {
+    padding-bottom: 0.75rem;
   }
 
 /* ---- Footer -------*/
@@ -244,7 +266,7 @@ h2 {
 
 .header-title {
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 1.75rem;
 }
 
 .header_container {
@@ -267,6 +289,7 @@ h2 {
 .header_nav-list-item {
   display: inline-block;
   background-color: #97afaf;
+  font-size: 0.9rem;
 }
 
 .header_profile {
@@ -281,7 +304,7 @@ h2 {
   margin-top: 0;
   margin-right: 0.25rem;
   padding-top: 0;
-  width: 65%;
+  width: 50%;
 }
 
 .profile-image {
@@ -306,6 +329,10 @@ h2 {
 .skills {
   width: 50%;
   margin: 0 auto;
+  }
+
+.skills-contact-content {
+  padding-bottom: 1rem;
   }
 
 /* ---- Footer -------*/
